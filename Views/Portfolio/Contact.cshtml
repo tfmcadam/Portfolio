@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/css/style.css">
+    <title>Yo What's Up</title>
+</head>
+<body>
+    <nav class="navbar nav-bar bg-light d-flex justify-content-center m-3">
+        <a class="m-3" href="/">Home</a>
+        <a class="m-3" href="projects">Projects</a>
+        <a class="m-3" href="contact">Contact</a>
+    </nav>
+    <h1 class="text-center">Holla Holla Holla</h1>
+    <h2 class="text-center">Let me know</h2>
+    <form class="form border shadow w-50 mx-auto rounded" action="process" method="post">
+        <div class="m-2">
+            <label class="form-label" for="name">Name:</label>
+            <input class="form-control" type="text" name="name">
+        </div>
+        <div class="m-2">
+            <label class="form-label" for="email">Email:</label>
+            <input class="form-control" type="text" name="name">
+        </div>
+        <div class="m-2">
+            <label class="form-label" for="name">Message:</label>
+            <input class="form-control" type="textarea" name="name">
+        </div>
+        <input class="btn m-2" type="submit">
+
+    </form>
+</body>
+</html>
